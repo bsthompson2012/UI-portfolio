@@ -18,11 +18,19 @@ window.Router = Backbone.Router.extend({
         } else {
             this.homeView.delegateEvents(); // delegate events when the view is recycled
         }
-        $("#content").html(this.homeView.el);
-       
+        $("#content").append(this.homeView.el);
+
         $('#contact').hide();
         $('#about').hide();
         $('#hero').hide();
+        $('#work').hide();
+        $('.ct2020-screen').hide();
+        $('.sg-screen').hide();
+        $('.sr-screen').hide();
+        $('.sm-screen').hide();
+        $('.o-screen').hide();
+
+        
     },
 
     defaultView: function () {
