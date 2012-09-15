@@ -1,5 +1,5 @@
 /* Core tag alterations. */
-html, body {height: 100%; color: #a9a9a9; background: url('/img/galaxy-1600-900-4399.jpg'); font-family: 'AR JULIAN'; letter-spacing: .1em;	font-size: 18px;}
+html, body {height: 100%; width: 100%; color: #a9a9a9; background: url('/img/galaxy-1600-900-4399.jpg'); font-family: 'AR JULIAN'; letter-spacing: .1em;	font-size: 18px;}
 a {text-decoration: none; color: #551A8B; }
 a:hover {text-decoration: line-through;}
 ul {list-style: none;}
@@ -10,21 +10,22 @@ li {line-height: 18.67px;}
 .kw{position: absolute; left: 500px; bottom: 50%; font-size: larger;}
 
 /* Template containers. */
-#profileDiv {height: 100%; display: inline-table; margin-left: 50px; float: left;}
-#profileLocation {display: table-cell; height: 100%; padding-top: 200px; width: 200px;}
-#profileMenu {text-align: right; display: inline-block; width: 400px; position: relative; top: -70px;}
+#profileLocation {position: absolute; top: 10%; left: 10%; bottom: 10%; width: 20%; border: 0px solid yellow;}
+#profileMenu {position: absolute; top: 10%; left: 10%; bottom: 10%; width: 20%; text-align: right; width: 80%;border: 0px solid green;}
+.divPosition{position: absolute; top: 20%; left: 28.5%}
 
 /* Classes pertaining to profile panel. */
-.name {font-size: 15px; letter-spacing: .2em; z-index: 1; color: Blue;}
-.middleName {letter-spacing: .17em;	font-style: italic; color: #551A8B;}
+.name {font-size: 18px; letter-spacing: .2em; z-index: 1; color: Blue;}
+.middleName {letter-spacing: .17em;	font-style: italic; color: #86699d;}
 .profileDivider {margin-top: 8px; margin-bottom: 8px;}
-.title{color: #551A8B;}
+.title{color: #86699d !important;}
 .profilePic{padding:1px; border:1px solid #021a40; background-color: white;}
 .comingSoon{color: #b1b0ce !important;}
+.workLink {color: #A9A9A9 !important;}
 
-/* The divider image that separates profile from keywords. */
-.divider {height: 100%;	display: inline-table; margin-left: 10px; float:  left;}
-.divPosition{display: table-cell; padding-top: 150px;}
+/* Screenshots */
+.ct2020-screen, .sg-screen, .sr-screen, .sm-screen, .o-screen {position: absolute; left: 30%; top: 15%;}
+
 
 
 
